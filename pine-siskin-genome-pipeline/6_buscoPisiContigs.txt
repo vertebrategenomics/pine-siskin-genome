@@ -1,0 +1,9 @@
+##################################################################################################################################
+Step 6: Assessing nuclear genome completeness (contig-level) (busco v5.8.3)
+##################################################################################################################################
+
+busco -m genome -i pisiContigs_hap1.fasta -o buscoPiSiContigsHap1 -l passeriformes_odb12 
+busco -m genome -i pisiContigs_hap2.fasta -o buscoPiSiContigsHap2 -l passeriformes_odb12 
+
+terminal output: 6_buscoPisiContigs_Output.txt
+
