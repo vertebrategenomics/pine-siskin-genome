@@ -1,0 +1,12 @@
+##################################################################################################################################
+Step 10: Checking for adaptor and foreign DNA contamination (scaffold-level) (...)
+##################################################################################################################################
+
+./run_fcsadaptor.sh --fasta-input pisiScaffoldsHap1.trimmed_scafs.fa --output-dir ./outputdir --euk
+python3 ./fcs.py screen genome --fasta pisiScaffoldsHap1.trimmed_scafs.fa --out-dir ./gx_out/ --gx-db "$PWD/db" --tax-id 2201931 
+
+./run_fcsadaptor.sh --fasta-input pisiScaffoldsHap2.trimmed_scafs.fa --output-dir ./outputdirHap2 --euk
+python3 ./fcs.py screen genome --fasta pisiScaffoldsHap2.trimmed_scafs.fa --out-dir ./gx_out/ --gx-db "$PWD/db" --tax-id 2201931 
+
+terminal output: 10_contaminationReport_Outout.txt
+
