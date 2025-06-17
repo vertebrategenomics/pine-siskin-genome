@@ -1,8 +1,0 @@
-##################################################################################################################################
-Step 8: Quality check nuclear genome assembly (scaffold-level) (quast v5.3.0)
-##################################################################################################################################
-quast.py pisiScaffoldsHap1.trimmed_scafs.fa -o quastPiSiScaffoldsHap1
-quast.py pisiScaffoldsHap2.trimmed_scafs.fa -o quastPiSiScaffoldsHap2
-
-terminal output: 8_quastPisiScaffolds_Output.txt
-

@@ -1,8 +1,0 @@
-##################################################################################################################################
-Step 7: Scaffolding nuclear genome (scaffold-level) (ntLink v1.3.11)
-##################################################################################################################################
-ntLink scaffold gap_fill target=fastaContigs/pisiContigs_hap1.fasta reads='trimmedPISI.fastq' k=28 w=200 t=5 z=1000 overlap=1 soft_mask=0 rounds=3 prefix=pisiScaffoldsHap1
-ntLink scaffold gap_fill target=fastaContigs/pisiContigs_hap2.fasta reads='trimmedPISI.fastq' k=28 w=200 t=5 z=1000 overlap=1 soft_mask=0 rounds=3 prefix=pisiScaffoldsHap2
-
-terminal output: 7_scaffoldNuclearContigs_Output.txt
-

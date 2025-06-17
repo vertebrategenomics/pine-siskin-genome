@@ -1,7 +1,0 @@
-##################################################################################################################################
-Step 15: Synteny analysis (LiftoffTools v0.4.3 )
-##################################################################################################################################
-
-liftofftools synteny -c -r zefiReference.fna -t pisiScaffoldsHap1.trimmed_scafs.fa.masked -rg zefiReference.gff -tg pisiZefiLiftoffAnnotations.gff
-
-terminal output: 15_annotationSyntenyDotplot_Output.txt

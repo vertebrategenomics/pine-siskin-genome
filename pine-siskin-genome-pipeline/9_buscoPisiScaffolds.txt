@@ -1,8 +1,0 @@
-##################################################################################################################################
-Step 9: Assessing nuclear genome completeness (scaffold-level) (busco v5.8.3)
-##################################################################################################################################
-
-busco -m genome -i pisiScaffoldsHap1.trimmed_scafs.fa -o buscoPiSiScaffoldsHap1 -l passeriformes_odb12 
-busco -m genome -i pisiScaffoldsHap2.trimmed_scafs.fa -o buscoPiSiScaffoldsHap2 -l passeriformes_odb12 
-
-terminal output: 9_buscoPisiScaffolds_Output.txt
